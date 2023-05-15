@@ -1,0 +1,145 @@
+@import url(https://cdn.pixabay.com/photo/2020/05/09/13/29/photographer-5149664_960_720.jpg);
+@import url(https://cdn.pixabay.com/photo/2015/05/14/17/17/thinking-767040_960_720.jpg);
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
+
+body{
+    background-color:thistle;
+    max-width: 960px;
+  margin: 0 auto;
+}
+
+.enunciado_padre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+h1 {
+    text-align: center;
+    font-family: 'Oleo Script', cursive;
+    font-size:  60px;
+}
+
+.enunciado_hijo {
+    display: block;
+    border: 1px solid transparent;
+    width: 100%;
+    height: 50px;
+    box-sizing:content-box;
+    padding: 5px 0px;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Oleo Script', cursive;
+    
+}
+.bloque_central {
+    background-color:grey;
+    display: block;
+    border: 1px solid transparent;
+    width: 100%;
+    height: 100%;
+}
+
+.foto1 {
+    display: flex;
+    align-items: center;
+    border: 1px solid blanchedalmond;
+    width: 50%;
+    height: 20px;
+    margin-left: 25%;
+    margin-top: 10px;
+    background-color: whitesmoke;
+    text-align: left;
+}
+.foto1 p {
+    padding-left: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.right_p1{
+    margin-left: auto;
+}
+.left_p1{
+    margin-right: auto;
+}
+.imagen1 {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 550px;
+    margin-left: 25%;
+    background-image: url(https://cdn.pixabay.com/photo/2020/05/09/13/29/photographer-5149664_960_720.jpg);
+    border: 1px solid blanchedalmond;
+
+}
+.pie1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blanchedalmond;
+    width: 50%;
+    height: 100px;
+    margin-left: 25%;
+    margin-top: 0;
+    background-color: whitesmoke;
+    
+}
+.pie1 p {
+    padding: 0 10px;
+}
+
+
+
+
+.foto2{
+    display: flex;
+    align-items: center;
+    border: 1px solid blanchedalmond;
+    width: 50%;
+    height: 20px;
+    margin-left: 25%;
+    margin-top: 100px;
+    background-color: whitesmoke;
+    text-align: left;
+
+}
+
+.foto2 p {
+    padding-left: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.right_p2{
+    margin-left: auto;
+}
+.left_p2{
+    margin-right: auto;
+}
+.imagen2 {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 550px;
+    margin-left: 25%;
+    background-image: url(https://cdn.pixabay.com/photo/2015/05/14/17/17/thinking-767040_960_720.jpg);
+    border: 1px solid blanchedalmond;
+
+}
+.pie2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blanchedalmond;
+    width: 50%;
+    height: 100px;
+    margin-left: 25%;
+    margin-top: 0;
+    margin-bottom: 10px;
+    background-color: whitesmoke;
+
+    
+}
+.pie2 p {
+    padding: 0 10px;
+}
